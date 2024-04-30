@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-banner {
+  background-image: url("/images/bg-process.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-process {
+  background-image: url("/images/bg-process.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.scroll-menu {
+  transition: all 500ms;
+}
+.scroll-menu:hover {
+  transform: scale(1.1);
+}
+.bg-overflow::-webkit-scrollbar {
+  display: none;
+}
