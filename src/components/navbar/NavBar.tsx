@@ -80,10 +80,13 @@ const NavBar = () => {
                 </Link>
               </div>
             ))}
+
             <div className="md:hidden text-center">
-              <button className="px-10 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400">
-                Log In
-              </button>
+              <Link href="/login">
+                <button className="px-10 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400">
+                  Log In
+                </button>
+              </Link>
             </div>
           </div>
           <div className="text-white text-2xl md:hidden">
