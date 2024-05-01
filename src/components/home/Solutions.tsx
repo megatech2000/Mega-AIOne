@@ -31,10 +31,8 @@ const Solutions = () => {
                 <Image src={item.img} alt="" width={1000} height={1000} />
               </div>
               <div>
-                <p className="text-2xl text-white font-semibold text-center py-5">
-                  {item.title}
-                </p>
-                <p className="text-center text-[#b1b0b0]">{item.desc}</p>
+                <h6 className="py-5">{item.title}</h6>
+                <p>{item.desc}</p>
               </div>
             </div>
           ))}
