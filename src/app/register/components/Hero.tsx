@@ -48,7 +48,7 @@ const Hero = () => {
                 className="w-full h-12 mb-3 rounded-lg bg-transparent border p-3 border-[#2a2a2a]"
               />
               <input
-                type="text"
+                type="password"
                 placeholder="Confirm Password"
                 className="w-full h-12 mb-3 rounded-lg bg-transparent border p-3 border-[#2a2a2a]"
               />
