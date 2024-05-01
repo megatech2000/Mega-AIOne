@@ -17,7 +17,7 @@ import { teamData } from "./data";
 const Teams = () => {
   return (
     <div className="relative">
-      <div className="bg-gradient-to-t from-[#000] to-transparent z-[1] absolute top-[-200px] md:top-[-240px] w-full h-full"></div>
+      <div className="bg-gradient-to-t from-[#000] to-transparent z-[1] absolute top-[-200px] md:top-[-260px] w-full h-full"></div>
       <section className="padding-top bg-[#000] border-t-transparent">
         <div className="section-width">
           <div className="text-center pb-20 ">
@@ -56,7 +56,7 @@ const Teams = () => {
                 <SwiperSlide key={i}>
                   <div>
                     <Image
-                      className="w-40"
+                      className="w-28"
                       src={item}
                       alt=""
                       width={600}

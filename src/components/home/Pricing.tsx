@@ -13,7 +13,7 @@ const Pricing = () => {
     : pricingData.filter((item) => item.label === "year");
 
   return (
-    <div className="relative">
+    <div className="relative" id="pricing">
       <div className="bg-gradient-to-t from-[#000] to-transparent z-[1] absolute top-[-200px] md:top-[-1000px] lg:top-[-100px]  w-full h-[10%]"></div>
       <section className="padding-top bg-[#000]">
         <div className="section-width">

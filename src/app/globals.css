@@ -31,6 +31,10 @@
     @apply bg-white text-black rounded-full py-1.5 px-6 flex items-center gap-4 mx-auto  text-sm md:text-base 2xl:text-lg;
   }
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
 
 .bg-banner {
   background-image: url("/images/bg-process.jpg");

@@ -3,7 +3,7 @@ import { industriesData } from "./data";
 
 const Industries = () => {
   return (
-    <section className=" bg-[#000]">
+    <section className=" bg-[#000]" id="feature">
       <div className="section-width">
         <div className="flex items-center justify-center">
           <div className="padding-top w-[800px] text-center">

@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className="bg-banner ">
+    <section className="bg-banner " id="home">
       <div className="section-width">
         <div className="flex flex-col items-center justify-center h-full pt-36 md:pt-56">
           <div className="text-center px-5">

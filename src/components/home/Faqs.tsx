@@ -10,12 +10,12 @@ const Faqs = () => {
     if (accordionIds.includes(id)) {
       setAccordionIds(accordionIds.filter((accId) => accId !== id));
     } else {
-      setAccordionIds([...accordionIds, id]);
+      setAccordionIds([id]);
     }
   };
 
   return (
-    <section className="padding-top bg-[#000]">
+    <section className="padding-top bg-[#000]" id="faq">
       <div className="section-width">
         <div className="flex flex-col items-center justify-center">
           <div className="text-center">

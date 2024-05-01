@@ -6,6 +6,12 @@ import Link from "next/link";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { IoMdClose } from "react-icons/io";
 
+interface NavLink {
+  title: string;
+  path: string;
+  target?: string;
+}
+
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,24 +23,35 @@ const NavBar = () => {
     {
       title: "Home",
       path: "/",
+      target: "home",
     },
     {
       title: "Feature",
       path: "#",
+      target: "feature",
     },
     {
       title: "Pricing",
       path: "#",
+      target: "pricing",
     },
     {
       title: "Faq",
       path: "#",
+      target: "faq",
     },
     {
       title: "Contact",
-      path: "#",
+      path: "/contact",
     },
   ];
+
+  const scrollToSection = (target: string) => {
+    const element = document.getElementById(target);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section className="absolute w-full top-0">
@@ -49,12 +66,15 @@ const NavBar = () => {
           />
         </div>
         <div
-          className={`md:flex gap-10 absolute top-[80px]  left-0 w-full  h-[100vh] md:h-16 bg-black md:bg-transparent md:w-[50%] lg:w-[30%] md:static px-10 md:px-0
+          className={`md:flex gap-10 absolute top-[80px]  left-0 w-full  h-[100vh] md:h-10 bg-black md:bg-transparent md:w-[50%] lg:w-[30%] md:static px-10 md:px-0
         ${isMenuOpen ? "" : "hidden"}`}
         >
           {links.map((item, i) => (
-            <div className="text-white scroll-menu py-2">
-              <Link href={item.path} key={i}>
+            <div className="text-white scroll-menu py-2" key={i}>
+              <Link
+                onClick={() => item.target && scrollToSection(item.target)}
+                href={item.path}
+              >
                 {item.title}
               </Link>
             </div>
