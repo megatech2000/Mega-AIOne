@@ -22,7 +22,7 @@ const Cases = () => {
             </p>
           </div>
         </div>
-        <div className="basis-[50%] md:px-5 h-full md:h-[45vh]  overflow-y-scroll bg-overflow mt-10 lg:mt-0">
+        <div className="basis-[50%] md:px-5 h-full md:h-[45vh] overflow-y-scroll bg-overflow mt-10 lg:mt-0">
           {caseData.map((item, i) => (
             <div
               className="bg-[#030309] p-10 rounded-lg border border-[#131313] mb-5 sticky top-0"

@@ -37,7 +37,7 @@ const Pricing = () => {
                 }`}
                 onClick={() => setShowMonthly(true)}
               >
-                <p>Monthly</p>
+                <p className="text-white">Monthly</p>
               </div>
               <div
                 className={`text-white border border-[#212121] px-10 py-3 rounded-r-lg bg-[#111] hover:bg-[#335a81] cursor-pointer ${
@@ -45,7 +45,7 @@ const Pricing = () => {
                 }`}
                 onClick={() => setShowMonthly(false)}
               >
-                <p>Yearly</p>
+                <p className="text-white">Yearly</p>
               </div>
             </div>
             <div className="grid grid-cols-1  xl:grid-cols-3 gap-5 py-10">
