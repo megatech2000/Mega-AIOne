@@ -95,6 +95,11 @@ body {
 .scroll-down {
   transition: all 0.5 cubic-bezier(1, 0, 1, 0);
 }
+.bg-login {
+  background-image: url("/images/last-banner.jpg");
+  background-position: top;
+  background-size: cover;
+}
 
 @keyframes slideIn {
   0% {

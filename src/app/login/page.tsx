@@ -1,7 +1,15 @@
+import dynamic from "next/dynamic";
+
+const Hero = dynamic(() => import("../login/components/Hero"));
+
 const loginPage = () => {
   return (
     <section>
-      <div>login page</div>
+      <div>
+        <div>
+          <Hero />
+        </div>
+      </div>
     </section>
   );
 };

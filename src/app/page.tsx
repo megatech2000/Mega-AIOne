@@ -1,3 +1,5 @@
+import Footer from "@/components/footer/Footer";
+import NavBar from "@/components/navbar/NavBar";
 import dynamic from "next/dynamic";
 
 const Banner = dynamic(() => import("../components/home/Banner"));
@@ -17,6 +19,7 @@ export default function Home() {
   return (
     <div>
       <div>
+        <NavBar />
         <Banner />
         <Teams />
         <Solutions />
@@ -29,6 +32,7 @@ export default function Home() {
         <Testimonials />
         <Faqs />
         <Transform />
+        <Footer />
       </div>
     </div>
   );
