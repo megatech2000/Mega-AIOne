@@ -26,7 +26,7 @@ const Testimonials = () => {
               Good Company
             </span>
           </h1>
-          <p className="text-white pt-5">
+          <p className="text-white ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>

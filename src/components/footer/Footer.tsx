@@ -25,7 +25,7 @@ const Footer = () => {
                   type="gmail"
                   placeholder="Enter Your email"
                 />
-                <button className="px-7 py-2 border rounded-md mt-3 md:mt-0">
+                <button className="px-7 py-2 border rounded-md mt-3 md:mt-0 scroll-menu">
                   Subscribe
                 </button>
               </form>
@@ -88,16 +88,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex gap-5 pt-5 lg:pt-0">
-            <div className="text-white  p-3 rounded-md border border-[#161616]">
+            <div className="text-white  p-3 rounded-md border border-[#161616] social-icons cursor-pointer">
               <SiFacebook />
             </div>
-            <div className="text-white  p-3 rounded-md border border-[#161616]">
+            <div className="text-white  p-3 rounded-md border border-[#161616] social-icons cursor-pointer">
               <FaInstagram />
             </div>
-            <div className="text-white  p-3 rounded-md border border-[#161616]">
+            <div className="text-white  p-3 rounded-md border border-[#161616] social-icons cursor-pointer">
               <FaXTwitter />
             </div>
-            <div className="text-white  p-3 rounded-md border border-[#161616]">
+            <div className="text-white  p-3 rounded-md border border-[#161616] social-icons cursor-pointer">
               <FaYoutube />
             </div>
           </div>

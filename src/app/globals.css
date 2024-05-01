@@ -80,3 +80,9 @@ body {
 .bg-overflow::-webkit-scrollbar {
   display: none;
 }
+.social-icons {
+  transition: all 400ms;
+}
+.social-icons:hover {
+  background-color: rgb(10, 10, 10);
+}
