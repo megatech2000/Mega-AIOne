@@ -19,18 +19,18 @@ const Hero = () => {
             />
           </a>
         </div>
-        <div className="z-50">
+        <div className="z-50 ">
           <p className="text-[10px] sm:text-base text-[#bbbaba]">
             Don't have an account yet?
-            <a href="/register">
-              <span className="underline hover:text-white"> Sign Up</span>
+            <a href="/login">
+              <span className="underline hover:text-white">Log In</span>
             </a>
           </p>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center h-full py-10 px-5 md:px-0">
         <div className="bg-[#090a1f] w-full md:w-[50%]  lg:w-[35%] text-white z-50 text-center p-5 md:p-10 rounded-lg">
-          <h2 className="mb-0 text-[#4838af]">Log In</h2>
+          <h2 className="mb-0 text-[#4838af]">Sign Up</h2>
           <p className="py-10 text-white">
             Lorem ipsum dolor sit amet adipiscing elit.
           </p>
@@ -47,6 +47,12 @@ const Hero = () => {
                 placeholder="Password"
                 className="w-full h-12 mb-3 rounded-lg bg-transparent border p-3 border-[#2a2a2a]"
               />
+              <input
+                type="text"
+                placeholder="Confirm Password"
+                className="w-full h-12 mb-3 rounded-lg bg-transparent border p-3 border-[#2a2a2a]"
+              />
+
               <div className="w-full">
                 <button className="w-full py-3 bg-[#4348ed]  text-white rounded-lg hover:bg-[#4348ed] hover:opacity-80">
                   Log In

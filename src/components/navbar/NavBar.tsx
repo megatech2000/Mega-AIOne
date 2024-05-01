@@ -83,11 +83,11 @@ const NavBar = () => {
 
             <div className="h-[40%] flex items-end justify-center">
               <div className="md:hidden  w-full">
-                <Link href="/login">
+                <a href="/login">
                   <button className="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400">
                     Log In
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -104,9 +104,11 @@ const NavBar = () => {
             )}
           </div>
           <div className="hidden md:block ">
-            <button className="px-10 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400">
-              Log In
-            </button>
+            <a href="/login">
+              <button className="px-10 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400">
+                Log In
+              </button>
+            </a>
           </div>
         </div>
       </section>
