@@ -8,7 +8,7 @@ const Process = () => {
         <div>
           <div className="bg-gradient-to-r from-[#000] to-transparent  absolute  w-full h-full"></div>
           <div className="bg-gradient-to-b from-[#000] to-transparent  absolute  w-full h-[200px]"></div>
-          <div className="flex flex-col items-center justify-center h-full pt-56 ">
+          <div className="flex flex-col items-center justify-center h-full pt-20 ">
             <div className="text-center px-5 lg:w-[60%] z-[1000]">
               <h1>Take a Quick Tour: See How the Process Works</h1>
               <p className="mb-10">
@@ -21,7 +21,7 @@ const Process = () => {
                 Sign Up
               </button>
             </div>
-            <div className="py-36 mb-20 rounded-2xl px-5 md:px-20 z-[1000] relative">
+            <div className="py-20 mb-20 rounded-2xl px-5 md:px-20 z-[1000] relative">
               <Image
                 className=" rounded-2xl"
                 src="/images/hero-img.jpg"
