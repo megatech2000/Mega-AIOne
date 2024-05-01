@@ -3,8 +3,8 @@ import { solutionData } from "./data";
 
 const Solutions = () => {
   return (
-    <section className="px-5 md:px-[100px] pt-36 pb-20 bg-[#000]">
-      <div>
+    <section className="padding-top  pb-20 bg-[#000]">
+      <div className="section-width">
         <div className="flex items-center justify-center">
           <div className="text-center  text-white w-[900px]">
             <h2 className="text-4xl md:text-5xl font-medium leading-snug">

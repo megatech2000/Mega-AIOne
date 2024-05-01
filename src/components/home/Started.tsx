@@ -4,8 +4,8 @@ import { startedData } from "./data";
 const Started = () => {
   return (
     <>
-      <section className="px-5 md:px-[100px] bg-[#000] py-20">
-        <div>
+      <section className=" bg-[#000]  padding-top">
+        <div className="section-width">
           <div className="text-center">
             <h2 className="text-4xl text-white md:text-5xl font-medium leading-tight">
               Get Started{" "}

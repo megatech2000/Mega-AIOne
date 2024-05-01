@@ -16,10 +16,10 @@ import { teamData } from "./data";
 
 const Teams = () => {
   return (
-    <div className=" relative">
-      <div className="bg-gradient-to-t from-[#000] to-transparent z-[1] absolute top-[-280px] w-full h-full"></div>
-      <section className="md:px-[100px] py-20 bg-[#000] border-t-transparent">
-        <div>
+    <div className="relative">
+      <div className="bg-gradient-to-t from-[#000] to-transparent z-[1] absolute top-[-200px] md:top-[-240px] w-full h-full"></div>
+      <section className="padding-top bg-[#000] border-t-transparent">
+        <div className="section-width">
           <div className="text-center pb-20 ">
             <p className="text-xl text-white font-extralight">
               Trusted by Professionals and Teams

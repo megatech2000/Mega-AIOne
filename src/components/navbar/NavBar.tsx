@@ -53,7 +53,7 @@ const NavBar = () => {
         ${isMenuOpen ? "" : "hidden"}`}
         >
           {links.map((item, i) => (
-            <div className="text-white scroll-menu py-5">
+            <div className="text-white scroll-menu py-2">
               <Link href={item.path} key={i}>
                 {item.title}
               </Link>

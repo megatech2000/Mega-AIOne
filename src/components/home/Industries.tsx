@@ -3,10 +3,10 @@ import { industriesData } from "./data";
 
 const Industries = () => {
   return (
-    <section className="px-5 md:px-[100px] bg-[#000]">
-      <div>
+    <section className=" bg-[#000]">
+      <div className="section-width">
         <div className="flex items-center justify-center">
-          <div className="py-20 pt-36 w-[800px] text-center">
+          <div className="padding-top w-[800px] text-center">
             <h3 className="text-4xl text-white md:text-5xl font-medium leading-tight">
               Revolutionizing Industries with{" "}
               <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
@@ -14,7 +14,7 @@ const Industries = () => {
                 Advanced AI Technology
               </span>
             </h3>
-            <p className="pt-10 text-white">
+            <p className="pt-10 pb-10 text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
               mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam

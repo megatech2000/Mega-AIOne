@@ -16,8 +16,8 @@ import { testimonialsData } from "./data";
 
 const Testimonials = () => {
   return (
-    <section className="px-5 md:px-[100px] py-36 bg-[#000]">
-      <div>
+    <section className="padding-top bg-[#000]">
+      <div className="section-width">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-medium leading-snug text-white">
             You're in{" "}

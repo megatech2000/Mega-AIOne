@@ -3,8 +3,8 @@ import { caseData } from "./data";
 
 const Cases = () => {
   return (
-    <section className="px-5 md:px-[100px] py-36 bg-black">
-      <div className="lg:flex">
+    <section className="padding-top bg-black">
+      <div className="lg:flex section-width">
         <div className="basis-[50%] ">
           <div>
             <h1 className="text-4xl text-white md:text-5xl font-medium leading-tight">
