@@ -9,20 +9,24 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <section className=" bg-[#000]">
-      <div className="section-width">
+      <div
+        className="section-width"
+        data-aos="fade-up"
+        data-aos-duration="1100"
+      >
         <div className="bg-gradient-to-t from-[#0a0a18] to-[#08081e] rounded-xl p-10">
           <div className="lg:flex items-center justify-between">
-            <div
-              className="text-white"
-              data-aos="fade-right"
-              data-aos-duration="1100"
-            >
+            <div className="text-white">
               <h4 className=" pb-2 ">Join our newsletter</h4>
               <p className="text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-            <div className="text-white pt-10 lg:pt-0">
+            <div
+              className="text-white pt-10 lg:pt-0"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            >
               <form
                 action=""
                 className="md:flex gap-3"
@@ -50,11 +54,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="lg:flex">
-          <div
-            className="basis-[100%]  pt-20"
-            data-aos="fade-right"
-            data-aos-duration="1100"
-          >
+          <div className="basis-[100%]  pt-20">
             <div>
               <Image
                 className="w-36"
@@ -73,12 +73,7 @@ const Footer = () => {
           </div>
           <div className="basis-[100%] flex   pt-20">
             {footerData.map((item, i) => (
-              <div
-                className="basis-[100%] text-white"
-                key={i}
-                data-aos="fade-right"
-                data-aos-duration="1100"
-              >
+              <div className="basis-[100%] text-white" key={i}>
                 <div className="">
                   <h6>{item.head}</h6>
                 </div>

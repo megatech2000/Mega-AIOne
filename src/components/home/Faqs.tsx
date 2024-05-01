@@ -1,4 +1,5 @@
 "use client";
+
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import { faqsData } from "./data";
 import { useState } from "react";
@@ -29,7 +30,6 @@ const Faqs = () => {
               Suspendisse varius enim in eros elementum tristique.
             </p>
           </div>
-
           {/* Accordion */}
           {faqsData &&
             faqsData.map((item, index) => (
@@ -51,9 +51,11 @@ const Faqs = () => {
                 </h6>
                 {accordionIds.includes(item.id) && (
                   <div
-                    className={`p-10 my-1 text-sm leading-normal text-white bg-gradient-to-t from-[#05050c] to-[#02020a] rounded-xl border border-[#121212] ${
+                    className={`scroll-down p-10 my-1 text-sm leading-normal text-white bg-gradient-to-t from-[#05050c] to-[#02020a] rounded-xl border border-[#121212] ${
                       accordionIds.includes(item.id) ? "open" : ""
                     }`}
+                    data-aos="fade-up"
+                    data-aos-duration="1100"
                     key={index}
                   >
                     {item.desc}
@@ -61,7 +63,7 @@ const Faqs = () => {
                 )}
               </div>
             ))}
-          {/* End of Accordion */}
+          ;{/* End of Accordion */}
         </div>
         <div
           className="text-white text-center py-20"

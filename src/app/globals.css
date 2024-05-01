@@ -60,6 +60,7 @@ html,
 body {
   scroll-behavior: smooth;
   background-color: #000;
+  overflow-x: hidden;
 }
 
 .bg-banner {
@@ -90,6 +91,9 @@ body {
 .bg-overlay {
   background-color: rgb(1, 1, 16);
   opacity: 80%;
+}
+.scroll-down {
+  transition: all 0.5 cubic-bezier(1, 0, 1, 0);
 }
 
 @keyframes slideIn {
