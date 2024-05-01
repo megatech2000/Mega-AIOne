@@ -22,10 +22,10 @@ const Industries = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {industriesData.map((item, i) => (
             <div
-              className=" flex flex-col mb-10 items-center justify-center p-5"
+              className="flex flex-col mb-10 items-center justify-center p-5  rounded-lg border"
               key={i}
             >
               <div>

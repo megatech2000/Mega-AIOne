@@ -20,7 +20,7 @@ const Banner = () => {
             </p>
           </div>
           <div className="flex gap-5 z-50">
-            <button className="bg-[#fff]  px-10 py-2 text-[#3434be]  rounded-lg scroll-menu">
+            <button className="bg-blue-400  px-10 py-2 text-[#fff]  rounded-lg scroll-menu">
               Get Started
             </button>
             <button className="text-white px-10 py-2 border rounded-lg border-[#fff] scroll-menu">
