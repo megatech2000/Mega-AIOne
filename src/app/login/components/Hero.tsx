@@ -53,7 +53,7 @@ const Hero = () => {
                 </button>
               </div>
             </form>
-            <hr className="mt-7 mb-7 bg-hr border border-[#272727]" />
+            <hr className="mt-7 mb-7 bg-hr border-1 border-[#272727]" />
             <div>
               <button className="w-full py-3 bg-transparent border border-[#868585] text-white rounded-lg flex items-center justify-center gap-5 mb-3 hover:bg-[#0c0d1b]">
                 <FaGoogle className="text-md text-[#9d9c9c]" />

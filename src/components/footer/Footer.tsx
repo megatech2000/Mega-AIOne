@@ -88,7 +88,7 @@ const Footer = () => {
             {/* end */}
           </div>
         </div>
-        <hr className="mt-10 " />
+        <hr className="mt-10 border-1 border-[#242424] " />
         <div className="lg:flex justify-between items-center py-10">
           <div>
             <div className="text-white">
