@@ -6,7 +6,7 @@ const Cases = () => {
     <section className="padding-top bg-black">
       <div className="lg:flex section-width">
         <div className="basis-[50%] ">
-          <div>
+          <div data-aos="fade-right" data-aos-duration="1100">
             <h2>
               Get Better Result with{" "}
               <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">

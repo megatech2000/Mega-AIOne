@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="bg-overlay absolute w-full bottom-0 h-full"></div>
       <div className="section-width">
         <div className="flex flex-col items-center justify-center h-full pt-36 md:pt-56 ">
-          <div className="text-center px-5 z-50">
+          <div className="text-center px-5 z-50 text-anim">
             <h1>
               Welcome to AI One: Your <br />
               <span className="bg-gradient-to-r from-blue-500 to-[#d610bc] text-transparent bg-clip-text">
@@ -19,7 +19,7 @@ const Banner = () => {
               Suspendisse varius enim in eros elementum tristique.
             </p>
           </div>
-          <div className="flex gap-5 z-50">
+          <div className="flex gap-5 z-50 text-anim">
             <button className="bg-blue-400  px-10 py-2 text-[#fff]  rounded-lg scroll-menu">
               Get Started
             </button>
@@ -27,9 +27,11 @@ const Banner = () => {
               Learn More
             </button>
           </div>
-          <div className="py-20 lg:py-36 lg:mb-20 rounded-2xl z-10">
+          <div className="py-20 lg:py-36 lg:mb-20 rounded-2xl z-10 ">
             <Image
-              className=" rounded-2xl z-[1000]"
+              className=" rounded-2xl z-[1000] "
+              data-aos="fade-up"
+              data-aos-duration="1100"
               src="/images/hero-img.jpg"
               alt=""
               width={2000}

@@ -6,7 +6,11 @@ const Industries = () => {
     <section className=" bg-[#000]" id="feature">
       <div className="section-width">
         <div className="flex items-center justify-center">
-          <div className="padding-top w-[800px] text-center">
+          <div
+            className="padding-top w-[800px] text-center"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
             <h2 className="leading-snug">
               Revolutionizing Industries with{" "}
               <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
@@ -25,7 +29,9 @@ const Industries = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {industriesData.map((item, i) => (
             <div
-              className="flex flex-col mb-10 items-center justify-center p-5  rounded-xl border border-[#1a1a1a] "
+              className="flex flex-col mb-10 items-center justify-center p-5  rounded-xl border border-[#1a1a1a]"
+              data-aos="fade-up"
+              data-aos-duration="1100"
               key={i}
             >
               <div>

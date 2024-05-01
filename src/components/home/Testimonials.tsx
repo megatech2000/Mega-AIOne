@@ -18,7 +18,11 @@ const Testimonials = () => {
   return (
     <section className="padding-top bg-[#000]">
       <div className="section-width">
-        <div className="text-center">
+        <div
+          className="text-center"
+          data-aos="fade-right"
+          data-aos-duration="1100"
+        >
           <h1 className="text-4xl md:text-5xl font-medium leading-snug text-white">
             You're in{" "}
             <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
@@ -30,7 +34,11 @@ const Testimonials = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div className="flex gap-5 pt-20 ">
+        <div
+          className="flex gap-5 pt-20 "
+          data-aos="fade-right"
+          data-aos-duration="1100"
+        >
           <Swiper
             slidesPerView={1}
             spaceBetween={30}

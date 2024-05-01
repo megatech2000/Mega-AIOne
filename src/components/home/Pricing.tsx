@@ -18,7 +18,11 @@ const Pricing = () => {
       <section className="padding-top bg-[#000]">
         <div className="section-width">
           <div>
-            <div className="text-center">
+            <div
+              className="text-center"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            >
               <h2>
                 Pricing{" "}
                 <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
@@ -30,7 +34,11 @@ const Pricing = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-            <div className="flex items-center justify-center">
+            <div
+              className="flex items-center justify-center"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            >
               <div
                 className={`text-white px-10 py-3 rounded-l-lg border border-[#212121] bg-[#111] hover:bg-[#335a81] cursor-pointer ${
                   showMonthly ? "bg-[#335a81]" : ""
@@ -52,6 +60,8 @@ const Pricing = () => {
               {filteredData.map((item, i) => (
                 <div
                   className="text-white bg-[#080d1e] bg-gradient-to-t from-[#1f0f1f] to-transparent rounded-lg relative border border-[#272727]"
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
                   key={i}
                 >
                   <div className="p-10">
