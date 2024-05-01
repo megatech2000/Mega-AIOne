@@ -57,7 +57,7 @@ const Pricing = () => {
                   <div className="p-10">
                     <h3>{item.head}</h3>
                     <p>{item.desc}</p>
-                    <h1 className="py-28 text-6xl font-bold text-white z-50">
+                    <h1 className="py-14 mb-0 md:py-20 text-left text-6xl font-bold text-white z-50">
                       ${item.price}/mo
                     </h1>
                     <div className="z-50">

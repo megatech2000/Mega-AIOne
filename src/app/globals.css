@@ -86,3 +86,7 @@ body {
 .social-icons:hover {
   background-color: rgb(10, 10, 10);
 }
+.bg-overlay {
+  background-color: rgb(1, 1, 16);
+  opacity: 80%;
+}

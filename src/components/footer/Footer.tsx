@@ -8,7 +8,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className=" bg-[#000] pt-36">
+    <section className=" bg-[#000]">
       <div className="section-width">
         <div className="bg-gradient-to-t from-[#0a0a18] to-[#08081e] rounded-xl p-10">
           <div className="lg:flex items-center justify-between">

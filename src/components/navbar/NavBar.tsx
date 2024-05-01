@@ -54,9 +54,9 @@ const NavBar = () => {
   };
 
   return (
-    <div className="relative">
-      <section className="absolute w-full top-0 bg-gradient-to-t from-transparent to-[#101010]">
-        <div className="flex items-center justify-between  p-5  md:px-[100px]">
+    <div className="relative z-[1000]">
+      <section className="absolute w-full h-[100px] md:h-[300px] top-0 bg-gradient-to-t from-transparent to-[#101010] ">
+        <div className="flex items-center justify-between  p-5 lg:section-width">
           <div>
             <Image
               className="w-28"
@@ -67,11 +67,11 @@ const NavBar = () => {
             />
           </div>
           <div
-            className={`md:flex gap-10 absolute top-[80px]  left-0 w-full  h-[100vh] md:h-10 bg-black md:bg-transparent md:w-[50%] lg:w-[30%] md:static px-10 md:px-0
+            className={`md:flex gap-10 absolute top-[80px]  left-0 w-full  h-[100vh] md:h-10 bg-black md:bg-transparent md:w-[50%] lg:w-[30%] md:static px-10 md:px-0 pt-10 md:pt-0
         ${isMenuOpen ? "" : "hidden"}`}
           >
             {links.map((item, i) => (
-              <div className="text-white scroll-menu py-2" key={i}>
+              <div className="text-white scroll-menu py-3" key={i}>
                 <Link
                   onClick={() => item.target && scrollToSection(item.target)}
                   href={item.path}
@@ -81,12 +81,14 @@ const NavBar = () => {
               </div>
             ))}
 
-            <div className="md:hidden text-center">
-              <Link href="/login">
-                <button className="px-10 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400">
-                  Log In
-                </button>
-              </Link>
+            <div className="h-[40%] flex items-end justify-center">
+              <div className="md:hidden  w-full">
+                <Link href="/login">
+                  <button className="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400">
+                    Log In
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="text-white text-2xl md:hidden">

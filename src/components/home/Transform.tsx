@@ -3,7 +3,7 @@ const Transform = () => {
     <section className="relative">
       <div className="bg-gradient-to-t from-transparent  to-[#000] z-[1] absolute top-0 w-full h-[30%]"></div>
       <div className="bg-gradient-to-t from-[#000]  to-transparent z-[1] absolute bottom-0 w-full h-[30%]"></div>
-      <div className="py-36 bg-process">
+      <div className="py-20 md:py-28 bg-process">
         <div className="flex items-center justify-center section-width">
           <div className="text-white  text-center w-full lg:w-[55%]">
             <h2>Transform the Way You Work – Try Our AI One Today!</h2>

@@ -42,7 +42,7 @@ const Faqs = () => {
                 </h6>
                 {accordionIds.includes(item.id) && (
                   <div
-                    className={`p-10 text-sm leading-normal text-white bg-gradient-to-t from-[#05050c] to-[#02020a] rounded-xl border border-[#121212] ${
+                    className={`p-10 my-1 text-sm leading-normal text-white bg-gradient-to-t from-[#05050c] to-[#02020a] rounded-xl border border-[#121212] ${
                       accordionIds.includes(item.id) ? "open" : ""
                     }`}
                     key={index}

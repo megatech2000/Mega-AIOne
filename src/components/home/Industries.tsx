@@ -7,7 +7,7 @@ const Industries = () => {
       <div className="section-width">
         <div className="flex items-center justify-center">
           <div className="padding-top w-[800px] text-center">
-            <h2>
+            <h2 className="leading-snug">
               Revolutionizing Industries with{" "}
               <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
                 {" "}
