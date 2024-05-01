@@ -31,10 +31,10 @@ const Banner = () => {
             </p>
           </div>
           <div className="flex items-center justify-center gap-5 z-50 w-full text-anim">
-            <button className="bg-blue-400 px-9  md:px-10 py-2 text-[#fff]  rounded-lg scroll-menu">
+            <button className="bg-blue-400 px-7  md:px-10 py-2 text-[#fff]  rounded-lg scroll-menu">
               Get Started
             </button>
-            <button className="text-white px-9 md:px-10 py-2 border rounded-lg border-[#fff] scroll-menu">
+            <button className="text-white px-7 md:px-10 py-2 border rounded-lg border-[#fff] scroll-menu">
               Learn More
             </button>
           </div>
