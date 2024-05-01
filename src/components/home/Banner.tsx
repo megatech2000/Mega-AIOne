@@ -1,6 +1,17 @@
+"use client";
+
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Banner = () => {
+  useEffect(() => {
+    import("aos").then((AOS) => {
+      AOS.default.init();
+    });
+  }, []);
+
   return (
     <section className="bg-banner relative" id="home">
       <div className="bg-overlay absolute w-full bottom-0 h-full"></div>
