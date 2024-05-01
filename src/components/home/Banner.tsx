@@ -9,7 +9,7 @@ const Banner = () => {
           <div className="text-center px-5 z-50">
             <h1>
               Welcome to AI One: Your <br />
-              <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
+              <span className="bg-gradient-to-r from-blue-500 to-[#d610bc] text-transparent bg-clip-text">
                 {" "}
                 Intelligent Chatbot Companion
               </span>
