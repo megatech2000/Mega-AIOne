@@ -30,7 +30,7 @@ const Process = () => {
                 height={2000}
               />
             </div>
-            <div className="text-black text-4xl  p-3 rounded-full bg-[#fff] absolute top-[68%] lg:top-[60%] z-[1000]  cursor-pointer">
+            <div className="text-black text-2xl md:text-4xl  p-3 rounded-full bg-[#fff] absolute top-[64%] lg:top-[60%] z-[1000]  cursor-pointer">
               <TbPlayerPlay />
             </div>
           </div>
