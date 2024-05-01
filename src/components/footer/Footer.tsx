@@ -14,7 +14,7 @@ const Footer = () => {
         data-aos="fade-up"
         data-aos-duration="1100"
       >
-        <div className="bg-gradient-to-t from-[#0a0a18] to-[#08081e] rounded-xl p-10">
+        <div className="bg-gradient-to-t from-[#0a0a18] to-[#08081e] rounded-xl p-5 md:p-10">
           <div className="lg:flex items-center justify-between">
             <div className="text-white">
               <h4 className=" pb-2 ">Join our newsletter</h4>
