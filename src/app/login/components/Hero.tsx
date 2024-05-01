@@ -61,11 +61,11 @@ const Hero = () => {
               </button>
               <button className="w-full py-3 bg-transparent border border-[#868585] text-white rounded-lg flex items-center justify-center gap-5 mb-3 hover:bg-[#0c0d1b]">
                 <FaFacebookF className="text-lg text-[#9d9c9c]" />
-                <p className="text-white text-base">Log in with Google</p>
+                <p className="text-white text-base">Log in with Facebook</p>
               </button>
               <button className="w-full py-3 bg-transparent border border-[#868585] text-white rounded-lg flex items-center justify-center gap-5 hover:bg-[#0c0d1b]">
                 <FaApple className="text-lg text-[#9d9c9c]" />
-                <p className="text-white text-base">Log in with Google</p>
+                <p className="text-white text-base">Log in with Apple</p>
               </button>
             </div>
           </div>
