@@ -19,14 +19,14 @@ const Pricing = () => {
         <div className="section-width">
           <div>
             <div className="text-center">
-              <h2 className="text-4xl text-white md:text-5xl font-medium leading-tight">
+              <h2>
                 Pricing{" "}
                 <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
                   {" "}
                   Plan{" "}
                 </span>
               </h2>
-              <p className="text-white py-10">
+              <p className="py-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
@@ -55,9 +55,7 @@ const Pricing = () => {
                   key={i}
                 >
                   <div className="p-10">
-                    <h3 className="pb-3 text-2xl font-semibold ">
-                      {item.head}
-                    </h3>
+                    <h3>{item.head}</h3>
                     <p>{item.desc}</p>
                     <h1 className="py-28 text-6xl font-bold text-white z-50">
                       ${item.price}/mo

@@ -7,14 +7,14 @@ const Cases = () => {
       <div className="lg:flex section-width">
         <div className="basis-[50%] ">
           <div>
-            <h1 className="text-4xl text-white md:text-5xl font-medium leading-tight">
+            <h2>
               Get Better Result with{" "}
               <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
                 {" "}
                 Real World Use Cases{" "}
               </span>
-            </h1>
-            <p className="text-[#aeadad] pt-5">
+            </h2>
+            <p className="pt-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
               mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
@@ -22,7 +22,7 @@ const Cases = () => {
             </p>
           </div>
         </div>
-        <div className="basis-[50%] md:px-5 h-[40vh]  overflow-y-scroll bg-overflow mt-10 lg:mt-0">
+        <div className="basis-[50%] md:px-5 h-full md:h-[45vh]  overflow-y-scroll bg-overflow mt-10 lg:mt-0">
           {caseData.map((item, i) => (
             <div
               className="bg-[#030309] p-10 rounded-lg border border-[#131313] mb-5 sticky top-0"

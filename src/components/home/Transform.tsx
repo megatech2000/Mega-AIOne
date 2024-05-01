@@ -6,10 +6,8 @@ const Transform = () => {
       <div className="py-36 bg-process">
         <div className="flex items-center justify-center section-width">
           <div className="text-white  text-center w-full lg:w-[55%]">
-            <h1 className="text-4xl md:text-5xl font-light leading-snug ">
-              Transform the Way You Work – Try Our AI One Today!
-            </h1>
-            <p className="py-10 text-[#7d7c7c]">
+            <h2>Transform the Way You Work – Try Our AI One Today!</h2>
+            <p className="mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique.
             </p>

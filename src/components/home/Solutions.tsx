@@ -7,7 +7,7 @@ const Solutions = () => {
       <div className="section-width">
         <div className="flex items-center justify-center">
           <div className="text-center  text-white w-[900px]">
-            <h2 className="text-4xl md:text-5xl font-medium leading-snug">
+            <h2>
               Crafting Solutions for{" "}
               <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
                 Tomorrow's Challenges

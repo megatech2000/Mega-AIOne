@@ -19,10 +19,8 @@ const Faqs = () => {
       <div className="section-width">
         <div className="flex flex-col items-center justify-center">
           <div className="text-center">
-            <h1 className="text-4xl text-white md:text-5xl font-medium leading-tight">
-              FAQs
-            </h1>
-            <p className="text-white pt-5 pb-20">
+            <h2>FAQs</h2>
+            <p className=" pt-5 pb-20">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique.
             </p>
@@ -57,10 +55,8 @@ const Faqs = () => {
           {/* End of Accordion */}
         </div>
         <div className="text-white text-center py-20">
-          <h1 className="text-2xl text-white md:text-4xl font-medium leading-tight">
-            Still have questions?
-          </h1>
-          <p className="py-5">
+          <h3>Still have questions?</h3>
+          <p className="mb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <div>

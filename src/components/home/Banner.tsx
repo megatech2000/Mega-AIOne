@@ -7,11 +7,11 @@ const Banner = () => {
       <div className="section-width">
         <div className="flex flex-col items-center justify-center h-full pt-36 md:pt-56">
           <div className="text-center px-5">
-            <h1 className="text-white text-4xl md:text-6xl font-medium">
+            <h1>
               Welcome to AI One: Your <br />
               Intelligent Chatbot Companion
             </h1>
-            <p className="text-white py-10">
+            <p className="text-[#8c8a8a] mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique.
             </p>

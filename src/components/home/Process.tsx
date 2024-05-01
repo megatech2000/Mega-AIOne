@@ -10,10 +10,8 @@ const Process = () => {
           <div className="bg-gradient-to-b from-[#000] to-transparent  absolute  w-full h-[200px]"></div>
           <div className="flex flex-col items-center justify-center h-full pt-56 ">
             <div className="text-center px-5 lg:w-[60%] z-[1000]">
-              <h1 className="text-white text-4xl md:text-6xl font-medium">
-                Take a Quick Tour: See How the Process Works
-              </h1>
-              <p className="text-white py-10">
+              <h1>Take a Quick Tour: See How the Process Works</h1>
+              <p className="mb-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique.
               </p>

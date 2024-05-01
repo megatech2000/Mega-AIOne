@@ -13,10 +13,8 @@ const Footer = () => {
         <div className="bg-gradient-to-t from-[#0a0a18] to-[#08081e] rounded-xl p-10">
           <div className="lg:flex items-center justify-between">
             <div className="text-white">
-              <p className="text-2xl font-semibold pb-3 ">
-                Join our newsletter
-              </p>
-              <p className="text-[#aeadad]">
+              <h4 className=" pb-2 ">Join our newsletter</h4>
+              <p className="text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
@@ -32,7 +30,7 @@ const Footer = () => {
                 </button>
               </form>
               <div>
-                <p className="text-sm pt-5 text-[#aeadad]">
+                <p className="pt-5 text-sm">
                   By subscribing you agree to with our{" "}
                   <a href="">
                     <span className="underline "> Privacy Policy</span>
@@ -54,7 +52,7 @@ const Footer = () => {
               />
             </div>
             <div className="pt-5 w-full md:w-[500px]">
-              <p className=" text-[#878686]">
+              <p className="text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique.
               </p>
@@ -64,12 +62,12 @@ const Footer = () => {
             {footerData.map((item, i) => (
               <div className="basis-[100%] text-white" key={i}>
                 <div className="">
-                  <p className="text-lg font-bold">{item.head}</p>
+                  <h6>{item.head}</h6>
                 </div>
 
                 <div className="pt-5 flex flex-col gap-5 text-[#878686]">
                   {item.title.map((items) => (
-                    <p>{items}</p>
+                    <p className="text-sm">{items}</p>
                   ))}
                 </div>
               </div>
@@ -81,7 +79,7 @@ const Footer = () => {
         <div className="lg:flex justify-between items-center py-10">
           <div>
             <div className="text-white">
-              <p className="text-sm text-[#878686]">
+              <p className="text-sm">
                 Made by <span className="underline"> Factortheme.</span> Powered
                 by <span className="underline"> Webflow.</span>
                 <span className="underline lg:pl-10"> Terms of Service</span>

@@ -7,14 +7,14 @@ const Industries = () => {
       <div className="section-width">
         <div className="flex items-center justify-center">
           <div className="padding-top w-[800px] text-center">
-            <h3 className="text-4xl text-white md:text-5xl font-medium leading-tight">
+            <h2>
               Revolutionizing Industries with{" "}
               <span className="bg-gradient-to-r from-blue-500 to-[#520147] text-transparent bg-clip-text">
                 {" "}
                 Advanced AI Technology
               </span>
-            </h3>
-            <p className="pt-10 pb-10 text-white">
+            </h2>
+            <p className="pt-5 pb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
               mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
@@ -38,7 +38,7 @@ const Industries = () => {
                 />
               </div>
               <div className="text-center text-white">
-                <p className="py-5 text-2xl font-normal">{item.title}</p>
+                <h6 className="py-5">{item.title}</h6>
                 <p className="text-sm text-[#aeadad]">{item.desc}</p>
               </div>
             </div>

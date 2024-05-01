@@ -21,11 +21,9 @@ const Teams = () => {
       <section className="padding-top bg-[#000] border-t-transparent">
         <div className="section-width">
           <div className="text-center pb-20 ">
-            <p className="text-xl text-white font-extralight">
-              Trusted by Professionals and Teams
-            </p>
+            <p>Trusted by Professionals and Teams</p>
           </div>
-          <div className="flex gap-20 ">
+          <div className="flex gap-20">
             <Swiper
               slidesPerView={2}
               spaceBetween={30}
