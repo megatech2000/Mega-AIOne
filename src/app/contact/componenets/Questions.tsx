@@ -64,7 +64,7 @@ const Questions = () => {
           </p>
           <div className="pt-5">
             <button className="px-10 py-2 bg-transparent border rounded-xl text-white">
-              Contact Sales
+              Click for Live Chat
             </button>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Questions = () => {
           </p>
           <div className="pt-5">
             <button className="px-10 py-2 bg-transparent border rounded-xl text-white">
-              Contact Sales
+              Get press kit
             </button>
           </div>
         </div>

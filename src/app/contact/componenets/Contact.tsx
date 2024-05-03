@@ -7,62 +7,50 @@ const Contact = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
-      <div className="flex items-center justify-center pt-10">
+      <div className=" pt-10 w-full lg:px-36">
         <form>
-          <div style={{ display: "flex", marginBottom: "1rem" }}>
-            <div style={{ marginRight: "1rem", color: "white" }}>
+          <div className="md:flex mb-[1rem] ">
+            <div className="md:mr-[1rem] text-white w-full">
               <label htmlFor="firstName ">First Name</label>
               <br />
               <input
                 type="text"
                 id="firstName"
-                className="px-36 py-3 rounded-lg border bg-[#040712] border-[#2e2e2e] mt-2"
+                className=" py-3 rounded-lg border bg-[#040712] border-[#2e2e2e] mt-2 w-full"
               />
             </div>
-            <div style={{ marginRight: "1rem", color: "#fff" }}>
+            <div className="md:mr-[1rem] text-white mt-5 md:mt-0 w-full">
               <label htmlFor="lastName">Last Name</label>
               <br />
               <input
                 type="text"
                 id="lastName"
-                className="px-36 py-3 rounded-lg border  bg-[#040712] border-[#2e2e2e]  mt-2"
+                className="w-full py-3 rounded-lg border  bg-[#040712] border-[#2e2e2e]  mt-2"
               />
             </div>
           </div>
-          <div
-            style={{ display: "flex", marginBottom: "1rem" }}
-            className="mt-10"
-          >
-            <div style={{ marginRight: "1rem", color: "white" }}>
+          <div className="mt-5 md:mt-10 md:flex mb-[1rem]">
+            <div className="md:mr-[1rem] text-white w-full">
               <label htmlFor="Email">Email</label>
               <br />
               <input
                 type="email"
                 id="Email"
-                className="px-36 py-3 rounded-lg border bg-[#040712] border-[#2e2e2e] mt-2"
+                className="w-full py-3 rounded-lg border bg-[#040712] border-[#2e2e2e] mt-2"
               />
             </div>
-            <div style={{ marginRight: "1rem", color: "#fff" }}>
+            <div className="mt-5 md:mt-0 md:mr-[1rem] text-white w-full">
               <label htmlFor="Phone number">Phone number</label>
               <br />
               <input
                 type="text"
                 id="Phone number"
-                className="px-36 py-3 rounded-lg border  bg-[#040712] border-[#2e2e2e]  mt-2"
+                className="w-full py-3 rounded-lg border  bg-[#040712] border-[#2e2e2e]  mt-2"
               />
             </div>
           </div>
-          <div style={{ marginRight: "1rem", color: "#fff" }} className="mt-10">
-            <label htmlFor="Phone number">Phone number</label>
-            <br />
-            <input
-              type="text"
-              id="Phone number"
-              className="w-full py-3 rounded-lg border  bg-[#040712] border-[#2e2e2e]  mt-2"
-            />
-          </div>
 
-          <div style={{ marginRight: "1rem", color: "#fff" }} className="mt-10">
+          <div className="md:mr-[1rem] text-white mt-10">
             <label htmlFor="Phone number">Message</label>
             <br />
             <textarea
@@ -71,15 +59,7 @@ const Contact = () => {
               className="w-full p-3  h-36 rounded-lg border  bg-[#040712] border-[#2e2e2e]  mt-2"
             />
           </div>
-          <div className="py-5">
-            <input type="checkbox" id="myCheckbox" name="myCheckbox" />
-            <label for="myCheckbox" className="text-white ml-5 text-sm">
-              I accept the{" "}
-              <a href="">
-                <span className="underline"> Terms and Conditions</span>
-              </a>
-            </label>
-          </div>
+
           <div className="text-center py-5">
             <button
               type="submit"
